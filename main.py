@@ -24,7 +24,6 @@ def mkparser():
                                     Takes csv file, that's generated from ravAuto, as input.")
 
     parser.add_argument("-c", dest="input_file",default=None,help='name of csv file created by ravAuto')
-    parser.add_argument("-l", dest="log_file", default='ravello.log',help='logfile name')
 
     return parser
 
